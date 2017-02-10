@@ -1,0 +1,22 @@
+//
+//  IFPrefixHeader.pch
+//  LocationSearch
+//
+//  Created by JingXueLong on 2017/2/3.
+//  Copyright © 2017年 JingXueLong. All rights reserved.
+//
+
+#ifndef IFPrefixHeader_pch
+#define IFPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Masonry.h>
+#import <AutoCoding.h>
+
+#define WIDE            [UIScreen mainScreen].bounds.size.width
+#define HEIGHT          [UIScreen mainScreen].bounds.size.height
+
+
+#endif /* IFPrefixHeader_pch */
